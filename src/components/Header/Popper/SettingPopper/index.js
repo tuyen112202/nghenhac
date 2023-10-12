@@ -48,7 +48,7 @@ const SettingPopper = () => {
             <PopperItem
                 text="Contact"
                 iconLeft={<ContactsOutlined />}
-                href="https://www.facebook.com/duy1462002/"
+                href="https://www.facebook.com/tuyennee"
             />
             <PopperItem
                 text="Advertisement"
