@@ -1,0 +1,19 @@
+/* slick gap */
+.slick-slide > div {
+    margin: 0 12px;
+}
+.slick-list { 
+    margin: 0 -12px;
+}
+
+.slick-prev {
+    margin-left: 46px;
+    z-index: 99;
+    opacity: 0.7;
+    
+}
+.slick-next {
+    margin-right: 46px;
+    z-index: 99;
+    opacity: 0.7;
+}

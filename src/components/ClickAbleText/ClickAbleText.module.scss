@@ -1,0 +1,10 @@
+.wrapper {
+    color: var(--opacity-text);
+    cursor: pointer;
+    &:hover {
+        color: var(--primary);
+        text-decoration: underline;
+    }
+    margin: 0 2px;
+    font-size: 12px;
+}

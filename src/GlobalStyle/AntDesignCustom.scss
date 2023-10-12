@@ -1,0 +1,42 @@
+/* menu item */
+.App {
+    .ant-menu-item {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        border-left: 3px solid transparent;
+        border-radius: 0;
+    }
+    .ant-menu-item-selected {
+        background-color: #3a3344;
+        border-radius: 0;
+        border-left: 3px solid #9b4de0;
+    }
+    .ant-menu-item-divider {
+        background-color: var(--divided-color);
+        width: 75%;
+        margin: 16px auto;
+    }
+    .ant-input-search-button {
+        background-color: transparent;
+        border: none;
+        border-radius: 99px !important;
+        color: var(--text-color) !important;
+    }
+    .ant-input {
+        color: var(--text-color);
+    }
+    .anticon-close-circle {
+        color: var(--text-color);
+    }
+    .ant-popover-inner {
+        padding: 6px;
+    }
+    .ant-slider {
+        margin-bottom: 0;
+    }
+    .ant-slider-dot {
+        display: none;
+    }
+    
+}

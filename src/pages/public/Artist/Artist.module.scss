@@ -1,0 +1,35 @@
+.heading {
+    display: flex;
+    margin-bottom: 16px;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 99px;
+    margin-right: 32px;
+}
+
+.name-and-play {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    h1 {
+        font-size: 46px;
+        margin-right: 12px;
+    }
+
+    .play-btn {
+        font-size: 40px;
+
+        &:hover {
+            opacity: 0.8;
+            cursor: pointer;
+        }
+    }
+}
+
+.song-list {
+    margin-top: 16px;
+}

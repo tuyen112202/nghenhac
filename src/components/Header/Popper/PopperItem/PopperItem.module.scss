@@ -1,0 +1,23 @@
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 6px;
+    cursor: pointer;
+    border-radius: 6px;
+    color: var(--text-color);
+
+    &:hover {
+        background-color: rgba(76, 70, 85, 1);;
+    }
+
+}
+
+.left-item {
+    display: flex;
+    align-items: center;
+}
+
+.suggestion-text {
+    margin-left: 12px;
+}

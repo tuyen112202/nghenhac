@@ -1,0 +1,52 @@
+.wrapper {
+    width: 280px;
+    color: var(--text-color);
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    margin-bottom: 8px;
+
+}
+
+.avatar {
+    width: 54px;
+    border-radius: 99px;
+    margin-right: 12px;
+}
+
+.status {
+    line-height: 16px;
+    background-color: rgb(167, 165, 165);
+    width: 50px;
+    text-align: center;
+    border-radius: 4px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.personal-setting {
+    width: 100%;
+    padding: 0 6px;
+}
+
+.personal {
+    margin-bottom: 6px;
+    font-weight: bold;
+}
+
+.logout-item {
+    padding: 0 6px;
+    margin-bottom: 8px;
+}
+
+.wrapper-notlogin {
+    padding: 12px 24px;
+}
+
+.login-button {
+   width: 260px;
+   height: 40px;
+}

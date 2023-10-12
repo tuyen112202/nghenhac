@@ -1,0 +1,28 @@
+.wrapper {
+    color: var(--text-color);
+    width: 380px;
+    font-size: 12px;
+    height: auto;
+    box-shadow: 0 4px 6px 0 rgba(32,33,36,.28);
+}
+
+.suggestion {
+    padding-top: 12px;
+}
+
+.suggestion-item {
+    display: flex;
+    align-items: center;
+    padding: 10px 4px;
+    cursor: pointer;
+    border-radius: 8px;
+
+    &:hover {
+        background-color: rgba(76, 70, 85, 1);;
+    }
+
+}
+
+.suggestion-text {
+    margin-left: 8px;
+}

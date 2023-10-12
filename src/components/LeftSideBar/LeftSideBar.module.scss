@@ -1,0 +1,70 @@
+.wrapper {
+    position: fixed;
+    width: 240px;
+    height: calc(100vh - var(--player-height));
+    background-color: rgba(35, 27, 46, 1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    padding: 0 25px 0 28px;
+}
+
+.logo {
+    width: 120px;
+    height: 40px;
+    cursor: pointer;
+}
+
+.menu-wrapper {
+    width: 100%;
+    border-bottom: 1px solid var(--divided-color);
+    padding-bottom: 16px;
+}
+
+.menu {
+    width: 100%;
+    font-family: 'Roboto', sans-serif;
+    background-color: transparent;
+    padding-bottom: 12px;
+}
+
+.login-banner {
+    padding: 15px 8px;
+    border-radius: 8px;
+    margin: 0 20px;
+    text-align: center;
+    background-image: linear-gradient(117deg, #5a4be7, #c86dd7 102%);
+}
+
+.banner-text {
+    font-size: 12px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    line-height: 1.67;
+    color: var(--white);
+}
+
+.banner-button {
+    display: inline-block;
+    padding: 6px 16px;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+@media screen and (max-width: 950px) {
+    .wrapper {
+        position: fixed;
+        left: -240px;
+        top: 0;
+        z-index: 999;
+        transition: left 0.4s ease;
+        height: 100vh;
+    }
+}

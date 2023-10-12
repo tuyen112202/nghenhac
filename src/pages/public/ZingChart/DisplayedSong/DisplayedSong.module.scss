@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    padding: 8px;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+}
+
+.image {
+    width: 60px;
+    height: 60px;
+    margin-right: 8px;
+    border-radius: 4px;
+}
+
+.info {
+    p {
+        font-size: 12px;
+    }
+}

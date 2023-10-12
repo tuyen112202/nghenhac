@@ -1,0 +1,30 @@
+.wrapper {
+    display: flex;
+    padding: 10px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: var(--hover-color);
+    }
+
+    img {
+        width: 60px;
+        height: 60px;
+        border-radius: 6px;
+        margin-right: 12px;   
+    }
+}
+
+.bottom-info {
+    display: flex;
+    font-size: 12px;
+    color: var(--opacity-color);
+}
+
+.artists {
+    display: flex;
+    max-width: 60%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}

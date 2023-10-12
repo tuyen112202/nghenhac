@@ -1,0 +1,17 @@
+.submit-wrapper {
+    display: flex;
+    align-items: flex-end;
+}
+
+.submit-button {
+    margin-right: 12px;
+}
+
+.click-text {
+    margin-left: 4px;
+
+    &:hover {
+        color: #1677FF;
+        cursor: pointer;
+    }
+}

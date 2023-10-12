@@ -1,0 +1,177 @@
+.wrapper {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 90px;
+    padding: 12px 20px;
+    background-color: #130c1c;
+    color: var(--text-color);
+    z-index: 99;
+}
+
+.song-info {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    
+}
+
+.song-img {
+    width: 64px;
+    border-radius: 8px;
+    margin-right: 16px;
+}
+
+.info {
+    margin-right: 24px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    strong {
+        margin-left: 2px;
+    }
+}
+
+.artists-name {
+    display: flex;
+}
+
+.icons {
+    display: flex;
+    width: 54px;
+    justify-content: space-between;
+    font-size: 18px;
+}
+
+.song-player {
+    height: 100%;
+}
+
+.actions {
+    font-size: 22px;
+    line-height: 20px;
+    display: flex;
+    width: 46%;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.action-btn {
+    cursor: pointer;
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+.action-btn-disable {
+    cursor: not-allowed!important ;
+    opacity: 0.5;
+}
+
+.play-btn {
+    font-size: 34px;
+}
+
+.song-settings {
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 20px;
+}
+
+.setting-btn {
+    margin-right: 20px;
+
+    &:hover {
+        cursor: pointer;
+        color: var(--primary);
+    }
+}
+
+.volume-wrapper {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    padding-right: 20px;
+    border-right: 1px solid gray;
+}
+
+.volume-btn {
+    margin-right: 8px;
+    color: var(--primary);
+
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.volume-slider {
+    width: 70px;
+    margin-bottom: 10px !important;
+}
+
+.list-btn {
+    &:hover {
+        cursor: pointer;
+        color: var(--primary);
+    }
+}
+
+.repeat,
+.shuffle {
+    color: var(--primary);
+}
+
+.mute {
+    opacity: 0.7;
+    color: var(--text-color);
+}
+
+.lyrics-container {
+    display: flex;
+    img {
+        width: 300px;
+        height: 300px;
+        border-radius: 8px;
+        margin-top: 48px;
+        margin-right: 40px;
+    }
+}
+
+.scroll-btn {
+    margin-left: 62px;
+    margin-top: 24px;
+}
+
+.lyrics-wrapper {
+    width: 100%;
+}
+
+.lyricSentence {
+    color: red;
+}
+
+.lyrics-word {
+    margin-left: 8px;
+    font-size: 22px;
+}
+
+.heart {
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+@media screen and (max-width: 775px) {
+    .song-settings,
+    .song-info {
+        display: none;
+    }
+    .wrapper {
+        justify-content: center!important;
+    }
+}

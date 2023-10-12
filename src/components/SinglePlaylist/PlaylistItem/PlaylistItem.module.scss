@@ -1,0 +1,40 @@
+.wrapper {
+    position: relative;
+    p {
+        color: var(--opacity-text);
+    }
+
+    &:hover .playlist-icon {
+        display: block;
+    }
+}
+
+.image-wrapper {
+    overflow: hidden;
+}
+
+.image {
+    width: 100%;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-bottom: 6px;
+
+    &:hover {
+        transform: scale(1.05);
+        transition: ease-in-out 500ms;
+        opacity: 0.7;
+    }
+}
+
+.playlist-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    display: none;
+
+    &:hover {
+        color: var(--primary);
+    }
+}

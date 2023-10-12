@@ -1,0 +1,24 @@
+.wrapper {
+    width: 100%;
+    padding-bottom: 24px;
+    height: 100%;
+}
+
+.heading {
+    padding: 10px;
+}
+
+.first-col {
+    display: flex;
+    align-items: center;
+}
+
+.heading-text {
+    margin-left: 6px;
+}
+
+.total-songs {
+    font-size: 12px;
+    color: var(--opacity-text);
+    margin-top: 12px;
+}

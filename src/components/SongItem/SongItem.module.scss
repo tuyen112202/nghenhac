@@ -1,0 +1,117 @@
+.active {
+    background-color: var(--hover-color);
+}
+
+.wrapper {
+    height: 60px;
+    border-radius: 4px;
+    &:hover {
+        background-color: var(--hover-color);
+    }
+}
+
+.song-item {
+    padding: 10px;
+}
+
+.first-column {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.song-img {
+    width: 40px;
+    border-radius: 6px;
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+}
+
+.song-title {
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+.song-info {
+    width: 100%;
+    strong {
+        display: block;
+        max-width: 65%;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        overflow: hidden;
+    }
+}
+.artist-names,
+.album-title {
+    display: block;
+    max-width: 70%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.album-title {
+    color: var(--opacity-text);
+    cursor: pointer;
+    font-size: 12px;
+    &:hover {
+        color: var(--primary);
+        text-decoration: underline;
+    }
+}
+
+.second-col {
+    display: flex;
+    align-items: center;
+}
+
+.third-col {
+    display: flex;
+    align-items: center;
+
+    p {
+        opacity: 0.6;
+    }
+}
+
+.top-number {
+    width: 4px;
+    font-size: 14px;
+    margin-right: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.artists {
+    display: flex;
+    max-width: 90%;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.heart {
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+.delete-btn {
+    font-size: 12px;
+    &:hover {
+        color: var(--primary);
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .song-info {
+        strong {
+            max-width: 50%;      
+        }
+    }
+    .artists {
+        max-width: 60%;
+    }
+}
